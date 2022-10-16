@@ -4,7 +4,7 @@ __author__ = 'dk1346'
 CSCI-603: Search and Sort (week 5)
 Author: Deepika Kini
 
-This is a demo program that optimal location to park 
+This is a demo program that tells the optimal location to park 
 food truck. It uses sorting and searching algorithm
 and uses time methods to understand the time taken for 
 the algorithms to compute the outcomes.
