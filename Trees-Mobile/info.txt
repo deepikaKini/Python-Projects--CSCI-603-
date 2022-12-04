@@ -1,0 +1,3 @@
+Using tree data structure, we construct a mobile (toy above a child's pram). The tree needs to be creaated using rods and balls
+and needs to be checked for balance (balance by weight). We also write functions to draw it using Turtle and calculate 
+various other parameters of this binary tree.
