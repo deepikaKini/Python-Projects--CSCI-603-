@@ -1,0 +1,256 @@
+Get to the choppa!
+Statistics:  100  hostage/s remain,  25  soldier/s remain,  50  guerrilla/s remain,  0  rescued
+SOLDIER #1 enters enemy base...
+SOLDIER #1 battles GUERRILLA #1 who rolls a 50
+SOLDIER #1 defeats GUERRILLA #1
+HOSTAGE #100 rescued from enemy base by SOLDIER #1
+SOLDIER #1  encounters the predator who rolls a  98
+SOLDIER #1 defeats PREDATOR #1
+HOSTAGE #100 boards the chopper!
+Statistics:  99  hostage/s remain,  25  soldier/s remain,  49  guerrilla/s remain,  0  rescued
+SOLDIER #2 enters enemy base...
+SOLDIER #2 battles GUERRILLA #2 who rolls a 54
+SOLDIER #2 defeats GUERRILLA #2
+HOSTAGE #99 rescued from enemy base by SOLDIER #2
+SOLDIER #2  encounters the predator who rolls a  6
+PREDATOR #1 defeats SOLDIER #2
+HOSTAGE #99  encounters the predator who rolls a  34
+PREDATOR #1 defeats HOSTAGE #99
+Statistics:  98  hostage/s remain,  24  soldier/s remain,  48  guerrilla/s remain,  0  rescued
+SOLDIER #3 enters enemy base...
+SOLDIER #3 battles GUERRILLA #3 who rolls a 66
+SOLDIER #3 defeats GUERRILLA #3
+HOSTAGE #98 rescued from enemy base by SOLDIER #3
+SOLDIER #3  encounters the predator who rolls a  63
+PREDATOR #1 defeats SOLDIER #3
+HOSTAGE #98  encounters the predator who rolls a  52
+HOSTAGE #98 defeats PREDATOR #1
+HOSTAGE #98 boards the chopper!
+Statistics:  97  hostage/s remain,  23  soldier/s remain,  47  guerrilla/s remain,  0  rescued
+SOLDIER #4 enters enemy base...
+SOLDIER #4 battles GUERRILLA #4 who rolls a 39
+SOLDIER #4 defeats GUERRILLA #4
+HOSTAGE #97 rescued from enemy base by SOLDIER #4
+SOLDIER #4  encounters the predator who rolls a  62
+PREDATOR #1 defeats SOLDIER #4
+HOSTAGE #97  encounters the predator who rolls a  46
+PREDATOR #1 defeats HOSTAGE #97
+Statistics:  96  hostage/s remain,  22  soldier/s remain,  46  guerrilla/s remain,  0  rescued
+SOLDIER #5 enters enemy base...
+SOLDIER #5 battles GUERRILLA #5 who rolls a 75
+SOLDIER #5 defeats GUERRILLA #5
+HOSTAGE #96 rescued from enemy base by SOLDIER #5
+SOLDIER #5  encounters the predator who rolls a  28
+PREDATOR #1 defeats SOLDIER #5
+HOSTAGE #96  encounters the predator who rolls a  65
+HOSTAGE #96 defeats PREDATOR #1
+HOSTAGE #96 boards the chopper!
+Statistics:  95  hostage/s remain,  21  soldier/s remain,  45  guerrilla/s remain,  0  rescued
+SOLDIER #6 enters enemy base...
+SOLDIER #6 battles GUERRILLA #6 who rolls a 18
+GUERRILLA #6 defeats HOSTAGE #95
+Statistics:  95  hostage/s remain,  20  soldier/s remain,  45  guerrilla/s remain,  0  rescued
+SOLDIER #7 enters enemy base...
+SOLDIER #7 battles GUERRILLA #7 who rolls a 37
+SOLDIER #7 defeats GUERRILLA #7
+HOSTAGE #95 rescued from enemy base by SOLDIER #7
+SOLDIER #7  encounters the predator who rolls a  18
+PREDATOR #1 defeats SOLDIER #7
+HOSTAGE #95  encounters the predator who rolls a  97
+HOSTAGE #95 defeats PREDATOR #1
+HOSTAGE #95 boards the chopper!
+Statistics:  94  hostage/s remain,  19  soldier/s remain,  44  guerrilla/s remain,  0  rescued
+SOLDIER #8 enters enemy base...
+SOLDIER #8 battles GUERRILLA #8 who rolls a 13
+GUERRILLA #8 defeats HOSTAGE #94
+Statistics:  94  hostage/s remain,  18  soldier/s remain,  44  guerrilla/s remain,  0  rescued
+SOLDIER #9 enters enemy base...
+SOLDIER #9 battles GUERRILLA #9 who rolls a 80
+SOLDIER #9 defeats GUERRILLA #9
+HOSTAGE #94 rescued from enemy base by SOLDIER #9
+SOLDIER #9  encounters the predator who rolls a  33
+PREDATOR #1 defeats SOLDIER #9
+HOSTAGE #94  encounters the predator who rolls a  69
+HOSTAGE #94 defeats PREDATOR #1
+HOSTAGE #94 boards the chopper!
+Statistics:  93  hostage/s remain,  17  soldier/s remain,  43  guerrilla/s remain,  0  rescued
+SOLDIER #10 enters enemy base...
+SOLDIER #10 battles GUERRILLA #10 who rolls a 91
+SOLDIER #10 defeats GUERRILLA #10
+HOSTAGE #93 rescued from enemy base by SOLDIER #10
+SOLDIER #10  encounters the predator who rolls a  78
+SOLDIER #10 defeats PREDATOR #1
+HOSTAGE #93 boards the chopper!
+Chopper transported HOSTAGE #93 to safety!
+Chopper transported HOSTAGE #94 to safety!
+Chopper transported HOSTAGE #95 to safety!
+Chopper transported HOSTAGE #96 to safety!
+Chopper transported HOSTAGE #98 to safety!
+Chopper transported HOSTAGE #100 to safety!
+Statistics:  92  hostage/s remain,  17  soldier/s remain,  42  guerrilla/s remain,  6  rescued
+SOLDIER #11 enters enemy base...
+SOLDIER #11 battles GUERRILLA #11 who rolls a 19
+GUERRILLA #11 defeats HOSTAGE #92
+Statistics:  92  hostage/s remain,  16  soldier/s remain,  42  guerrilla/s remain,  6  rescued
+SOLDIER #12 enters enemy base...
+SOLDIER #12 battles GUERRILLA #12 who rolls a 40
+SOLDIER #12 defeats GUERRILLA #12
+HOSTAGE #92 rescued from enemy base by SOLDIER #12
+SOLDIER #12  encounters the predator who rolls a  13
+PREDATOR #1 defeats SOLDIER #12
+HOSTAGE #92  encounters the predator who rolls a  94
+HOSTAGE #92 defeats PREDATOR #1
+HOSTAGE #92 boards the chopper!
+Statistics:  91  hostage/s remain,  15  soldier/s remain,  41  guerrilla/s remain,  6  rescued
+SOLDIER #13 enters enemy base...
+SOLDIER #13 battles GUERRILLA #13 who rolls a 10
+GUERRILLA #13 defeats HOSTAGE #91
+Statistics:  91  hostage/s remain,  14  soldier/s remain,  41  guerrilla/s remain,  6  rescued
+SOLDIER #14 enters enemy base...
+SOLDIER #14 battles GUERRILLA #14 who rolls a 88
+SOLDIER #14 defeats GUERRILLA #14
+HOSTAGE #91 rescued from enemy base by SOLDIER #14
+SOLDIER #14  encounters the predator who rolls a  43
+PREDATOR #1 defeats SOLDIER #14
+HOSTAGE #91  encounters the predator who rolls a  61
+HOSTAGE #91 defeats PREDATOR #1
+HOSTAGE #91 boards the chopper!
+Statistics:  90  hostage/s remain,  13  soldier/s remain,  40  guerrilla/s remain,  6  rescued
+SOLDIER #15 enters enemy base...
+SOLDIER #15 battles GUERRILLA #15 who rolls a 72
+SOLDIER #15 defeats GUERRILLA #15
+HOSTAGE #90 rescued from enemy base by SOLDIER #15
+SOLDIER #15  encounters the predator who rolls a  13
+PREDATOR #1 defeats SOLDIER #15
+HOSTAGE #90  encounters the predator who rolls a  46
+PREDATOR #1 defeats HOSTAGE #90
+Statistics:  89  hostage/s remain,  12  soldier/s remain,  39  guerrilla/s remain,  6  rescued
+SOLDIER #16 enters enemy base...
+SOLDIER #16 battles GUERRILLA #16 who rolls a 56
+SOLDIER #16 defeats GUERRILLA #16
+HOSTAGE #89 rescued from enemy base by SOLDIER #16
+SOLDIER #16  encounters the predator who rolls a  41
+PREDATOR #1 defeats SOLDIER #16
+HOSTAGE #89  encounters the predator who rolls a  79
+HOSTAGE #89 defeats PREDATOR #1
+HOSTAGE #89 boards the chopper!
+Statistics:  88  hostage/s remain,  11  soldier/s remain,  38  guerrilla/s remain,  6  rescued
+SOLDIER #17 enters enemy base...
+SOLDIER #17 battles GUERRILLA #17 who rolls a 82
+SOLDIER #17 defeats GUERRILLA #17
+HOSTAGE #88 rescued from enemy base by SOLDIER #17
+SOLDIER #17  encounters the predator who rolls a  27
+PREDATOR #1 defeats SOLDIER #17
+HOSTAGE #88  encounters the predator who rolls a  71
+HOSTAGE #88 defeats PREDATOR #1
+HOSTAGE #88 boards the chopper!
+Statistics:  87  hostage/s remain,  10  soldier/s remain,  37  guerrilla/s remain,  6  rescued
+SOLDIER #18 enters enemy base...
+SOLDIER #18 battles GUERRILLA #18 who rolls a 62
+SOLDIER #18 defeats GUERRILLA #18
+HOSTAGE #87 rescued from enemy base by SOLDIER #18
+SOLDIER #18  encounters the predator who rolls a  57
+PREDATOR #1 defeats SOLDIER #18
+HOSTAGE #87  encounters the predator who rolls a  67
+HOSTAGE #87 defeats PREDATOR #1
+HOSTAGE #87 boards the chopper!
+Statistics:  86  hostage/s remain,  9  soldier/s remain,  36  guerrilla/s remain,  6  rescued
+SOLDIER #19 enters enemy base...
+SOLDIER #19 battles GUERRILLA #19 who rolls a 34
+SOLDIER #19 defeats GUERRILLA #19
+HOSTAGE #86 rescued from enemy base by SOLDIER #19
+SOLDIER #19  encounters the predator who rolls a  8
+PREDATOR #1 defeats SOLDIER #19
+HOSTAGE #86  encounters the predator who rolls a  71
+HOSTAGE #86 defeats PREDATOR #1
+HOSTAGE #86 boards the chopper!
+Chopper transported HOSTAGE #86 to safety!
+Chopper transported HOSTAGE #87 to safety!
+Chopper transported HOSTAGE #88 to safety!
+Chopper transported HOSTAGE #89 to safety!
+Chopper transported HOSTAGE #91 to safety!
+Chopper transported HOSTAGE #92 to safety!
+Statistics:  85  hostage/s remain,  8  soldier/s remain,  35  guerrilla/s remain,  12  rescued
+SOLDIER #20 enters enemy base...
+SOLDIER #20 battles GUERRILLA #20 who rolls a 2
+GUERRILLA #20 defeats HOSTAGE #85
+Statistics:  85  hostage/s remain,  7  soldier/s remain,  35  guerrilla/s remain,  12  rescued
+SOLDIER #21 enters enemy base...
+SOLDIER #21 battles GUERRILLA #21 who rolls a 12
+GUERRILLA #21 defeats HOSTAGE #85
+Statistics:  85  hostage/s remain,  6  soldier/s remain,  35  guerrilla/s remain,  12  rescued
+SOLDIER #22 enters enemy base...
+SOLDIER #22 battles GUERRILLA #22 who rolls a 93
+SOLDIER #22 defeats GUERRILLA #22
+HOSTAGE #85 rescued from enemy base by SOLDIER #22
+SOLDIER #22  encounters the predator who rolls a  52
+PREDATOR #1 defeats SOLDIER #22
+HOSTAGE #85  encounters the predator who rolls a  91
+HOSTAGE #85 defeats PREDATOR #1
+HOSTAGE #85 boards the chopper!
+Statistics:  84  hostage/s remain,  5  soldier/s remain,  34  guerrilla/s remain,  12  rescued
+SOLDIER #23 enters enemy base...
+SOLDIER #23 battles GUERRILLA #23 who rolls a 86
+SOLDIER #23 defeats GUERRILLA #23
+HOSTAGE #84 rescued from enemy base by SOLDIER #23
+SOLDIER #23  encounters the predator who rolls a  81
+SOLDIER #23 defeats PREDATOR #1
+HOSTAGE #84 boards the chopper!
+Statistics:  83  hostage/s remain,  5  soldier/s remain,  33  guerrilla/s remain,  12  rescued
+SOLDIER #24 enters enemy base...
+SOLDIER #24 battles GUERRILLA #24 who rolls a 1
+GUERRILLA #24 defeats HOSTAGE #83
+Statistics:  83  hostage/s remain,  4  soldier/s remain,  33  guerrilla/s remain,  12  rescued
+SOLDIER #25 enters enemy base...
+SOLDIER #25 battles GUERRILLA #25 who rolls a 79
+SOLDIER #25 defeats GUERRILLA #25
+HOSTAGE #83 rescued from enemy base by SOLDIER #25
+SOLDIER #25  encounters the predator who rolls a  64
+PREDATOR #1 defeats SOLDIER #25
+HOSTAGE #83  encounters the predator who rolls a  43
+PREDATOR #1 defeats HOSTAGE #83
+Statistics:  82  hostage/s remain,  3  soldier/s remain,  32  guerrilla/s remain,  12  rescued
+SOLDIER #1 enters enemy base...
+SOLDIER #1 battles GUERRILLA #26 who rolls a 32
+SOLDIER #1 defeats GUERRILLA #26
+HOSTAGE #82 rescued from enemy base by SOLDIER #1
+SOLDIER #1  encounters the predator who rolls a  94
+SOLDIER #1 defeats PREDATOR #1
+HOSTAGE #82 boards the chopper!
+Statistics:  81  hostage/s remain,  3  soldier/s remain,  31  guerrilla/s remain,  12  rescued
+SOLDIER #10 enters enemy base...
+SOLDIER #10 battles GUERRILLA #27 who rolls a 42
+SOLDIER #10 defeats GUERRILLA #27
+HOSTAGE #81 rescued from enemy base by SOLDIER #10
+SOLDIER #10  encounters the predator who rolls a  91
+SOLDIER #10 defeats PREDATOR #1
+HOSTAGE #81 boards the chopper!
+Statistics:  80  hostage/s remain,  3  soldier/s remain,  30  guerrilla/s remain,  12  rescued
+SOLDIER #23 enters enemy base...
+SOLDIER #23 battles GUERRILLA #28 who rolls a 9
+GUERRILLA #28 defeats HOSTAGE #80
+Statistics:  80  hostage/s remain,  2  soldier/s remain,  30  guerrilla/s remain,  12  rescued
+SOLDIER #1 enters enemy base...
+SOLDIER #1 battles GUERRILLA #29 who rolls a 25
+SOLDIER #1 defeats GUERRILLA #29
+HOSTAGE #80 rescued from enemy base by SOLDIER #1
+SOLDIER #1  encounters the predator who rolls a  73
+PREDATOR #1 defeats SOLDIER #1
+HOSTAGE #80  encounters the predator who rolls a  29
+PREDATOR #1 defeats HOSTAGE #80
+Statistics:  79  hostage/s remain,  1  soldier/s remain,  29  guerrilla/s remain,  12  rescued
+SOLDIER #10 enters enemy base...
+SOLDIER #10 battles GUERRILLA #30 who rolls a 31
+SOLDIER #10 defeats GUERRILLA #30
+HOSTAGE #79 rescued from enemy base by SOLDIER #10
+SOLDIER #10  encounters the predator who rolls a  19
+PREDATOR #1 defeats SOLDIER #10
+HOSTAGE #79  encounters the predator who rolls a  70
+HOSTAGE #79 defeats PREDATOR #1
+HOSTAGE #79 boards the chopper!
+Chopper transported HOSTAGE #79 to safety!
+Chopper transported HOSTAGE #81 to safety!
+Chopper transported HOSTAGE #82 to safety!
+Chopper transported HOSTAGE #84 to safety!
+Chopper transported HOSTAGE #85 to safety!
+Statistics:  78  hostage/s remain,  0  soldier/s remain,  28  guerrilla/s remain,  17  rescued

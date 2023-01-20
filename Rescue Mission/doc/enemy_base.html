@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module enemy_base</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>enemy_base</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cmjc%5Cpycharmprojects%5Cpredator_fac%5Cenemy_base.py">c:\users\mjc\pycharmprojects\predator_fac\enemy_base.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="enemy_base.html#Enemy_Base">Enemy_Base</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Enemy_Base">class <strong>Enemy_Base</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Enemy_Base">Enemy_Base</a>(num_hostages:&nbsp;int,&nbsp;num_guerrillas:&nbsp;int,&nbsp;rnd:&nbsp;random.Random)<br>
+&nbsp;<br>
+This&nbsp;class&nbsp;represents&nbsp;the&nbsp;enemy&nbsp;base.&nbsp;&nbsp;It&nbsp;contains&nbsp;a&nbsp;guard&nbsp;line&nbsp;of&nbsp;guerrillas<br>
+that&nbsp;are&nbsp;guarding&nbsp;a&nbsp;group&nbsp;of&nbsp;hostages&nbsp;stored&nbsp;in&nbsp;a&nbsp;narrow&nbsp;cave<br>
+with&nbsp;only&nbsp;an&nbsp;entrance&nbsp;and&nbsp;now&nbsp;way&nbsp;for&nbsp;the&nbsp;hostages&nbsp;to&nbsp;reorder&nbsp;themselves.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Enemy_Base-__init__"><strong>__init__</strong></a>(self, num_hostages: int, num_guerrillas: int, rnd: random.Random)</dt><dd><tt>Create&nbsp;the&nbsp;enemy&nbsp;base&nbsp;with&nbsp;a&nbsp;number&nbsp;of&nbsp;hostages,&nbsp;1-num_hostages,<br>
+pushed&nbsp;into&nbsp;the&nbsp;cave&nbsp;in&nbsp;order,&nbsp;and&nbsp;a&nbsp;number&nbsp;of&nbsp;guerrillas,<br>
+1-num_guerrillas,&nbsp;added&nbsp;to&nbsp;the&nbsp;guard&nbsp;line&nbsp;in&nbsp;order.<br>
+&nbsp;<br>
+@param&nbsp;num_hostages:&nbsp;the&nbsp;number&nbsp;of&nbsp;hostages&nbsp;to&nbsp;start&nbsp;the&nbsp;enemy&nbsp;base<br>
+@param&nbsp;num_guerrillas:&nbsp;the&nbsp;number&nbsp;of&nbsp;guerrillas&nbsp;to&nbsp;start&nbsp;the&nbsp;enemy&nbsp;base<br>
+@param&nbsp;rnd:&nbsp;the&nbsp;seeded&nbsp;random&nbsp;number&nbsp;generator</tt></dd></dl>
+
+<dl><dt><a name="Enemy_Base-add_guerrilla"><strong>add_guerrilla</strong></a>(self, guerrilla: player.Player) -&gt; None</dt><dd><tt>Add&nbsp;a&nbsp;guerrillas&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;line<br>
+@param&nbsp;guerrilla:&nbsp;the&nbsp;guerrilla&nbsp;to&nbsp;add<br>
+@return:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Enemy_Base-add_hostage"><strong>add_hostage</strong></a>(self, hostage: player.Player) -&gt; None</dt><dd><tt>Add&nbsp;a&nbsp;hostage&nbsp;to&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;cave<br>
+@param&nbsp;hostage:&nbsp;the&nbsp;hostage&nbsp;to&nbsp;add<br>
+@return:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Enemy_Base-get_guerrilla"><strong>get_guerrilla</strong></a>(self) -&gt; player.Player</dt><dd><tt>Remove&nbsp;a&nbsp;guerrilla&nbsp;from&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;line<br>
+:pre:&nbsp;the&nbsp;guerrilla&nbsp;line&nbsp;is&nbsp;not&nbsp;empty<br>
+@return:&nbsp;the&nbsp;guerrilla&nbsp;at&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;line</tt></dd></dl>
+
+<dl><dt><a name="Enemy_Base-get_hostage"><strong>get_hostage</strong></a>(self) -&gt; player.Player</dt><dd><tt>Get&nbsp;a&nbsp;hostage&nbsp;from&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;cave<br>
+:pre:&nbsp;the&nbsp;cave&nbsp;is&nbsp;not&nbsp;empty<br>
+@return:&nbsp;the&nbsp;hostage&nbsp;at&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;cave</tt></dd></dl>
+
+<dl><dt><a name="Enemy_Base-get_num_guerrillas"><strong>get_num_guerrillas</strong></a>(self) -&gt; int</dt><dd><tt>Get&nbsp;the&nbsp;number&nbsp;of&nbsp;guerrillas&nbsp;in&nbsp;line<br>
+@return:&nbsp;the&nbsp;number&nbsp;of&nbsp;guerrillas</tt></dd></dl>
+
+<dl><dt><a name="Enemy_Base-get_num_hostages"><strong>get_num_hostages</strong></a>(self) -&gt; int</dt><dd><tt>Get&nbsp;the&nbsp;number&nbsp;of&nbsp;hostages&nbsp;in&nbsp;the&nbsp;cave<br>
+@return:&nbsp;the&nbsp;number&nbsp;of&nbsp;hostages</tt></dd></dl>
+
+<dl><dt><a name="Enemy_Base-rescue_hostage"><strong>rescue_hostage</strong></a>(self, soldier: player.Player) -&gt; player.Player</dt><dd><tt>A&nbsp;soldier&nbsp;enters&nbsp;the&nbsp;enemy&nbsp;base&nbsp;and&nbsp;attempts&nbsp;to&nbsp;rescue&nbsp;a&nbsp;hostage.&nbsp;&nbsp;First<br>
+the&nbsp;must&nbsp;defeat&nbsp;the&nbsp;guerrilla&nbsp;at&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;guard&nbsp;line,&nbsp;then<br>
+they&nbsp;can&nbsp;rescue&nbsp;one&nbsp;hostage&nbsp;at&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;cave.&nbsp;&nbsp;Follow&nbsp;these&nbsp;steps:<br>
+&nbsp;<br>
+1.&nbsp;Print&nbsp;the&nbsp;message&nbsp;"{soldier}&nbsp;enters&nbsp;enemy&nbsp;base...".<br>
+&nbsp;<br>
+2.&nbsp;Remove&nbsp;and&nbsp;hold&nbsp;onto&nbsp;the&nbsp;hostage&nbsp;at&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;cave.<br>
+&nbsp;<br>
+3.&nbsp;If&nbsp;there&nbsp;are&nbsp;no&nbsp;guerrillas&nbsp;left&nbsp;in&nbsp;the&nbsp;base,&nbsp;return&nbsp;the&nbsp;hostage<br>
+to&nbsp;the&nbsp;caller.<br>
+&nbsp;<br>
+4.&nbsp;Otherwise&nbsp;get&nbsp;the&nbsp;next&nbsp;guerrilla&nbsp;from&nbsp;the&nbsp;guard&nbsp;line.<br>
+&nbsp;<br>
+5.&nbsp;Have&nbsp;the&nbsp;guerrilla&nbsp;roll&nbsp;the&nbsp;die,&nbsp;1-100,&nbsp;and&nbsp;print&nbsp;the&nbsp;message,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"{soldier}&nbsp;battles&nbsp;{guerrilla}&nbsp;who&nbsp;rolls&nbsp;a&nbsp;#'.<br>
+&nbsp;<br>
+6.&nbsp;If&nbsp;the&nbsp;die&nbsp;roll&nbsp;is&nbsp;greater&nbsp;than&nbsp;the&nbsp;chance&nbsp;to&nbsp;defeat&nbsp;the&nbsp;soldier,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;soldier&nbsp;declares&nbsp;victory&nbsp;over&nbsp;the&nbsp;guerrilla.&nbsp;The&nbsp;front&nbsp;hostage<br>
+&nbsp;&nbsp;&nbsp;&nbsp;is&nbsp;then&nbsp;returned&nbsp;from&nbsp;the&nbsp;method.<br>
+&nbsp;<br>
+7.&nbsp;Otherwise&nbsp;the&nbsp;guerrilla&nbsp;declares&nbsp;victory&nbsp;over.&nbsp;The&nbsp;hostage&nbsp;is&nbsp;pushed<br>
+&nbsp;&nbsp;&nbsp;&nbsp;back&nbsp;onto&nbsp;the&nbsp;head&nbsp;of&nbsp;cave&nbsp;and&nbsp;the&nbsp;guerrilla&nbsp;is&nbsp;added&nbsp;to&nbsp;the&nbsp;end<br>
+&nbsp;&nbsp;&nbsp;&nbsp;of&nbsp;the&nbsp;guard&nbsp;line.&nbsp;&nbsp;No&nbsp;hostage&nbsp;is&nbsp;returned,&nbsp;e.g.&nbsp;None.<br>
+&nbsp;<br>
+@param&nbsp;soldier:&nbsp;the&nbsp;rescuing&nbsp;soldier<br>
+@return:&nbsp;if&nbsp;a&nbsp;hostage&nbsp;were&nbsp;rescued.&nbsp;Otherwise,&nbsp;if&nbsp;the&nbsp;soldier&nbsp;has&nbsp;failed,<br>
+returns&nbsp;None</tt></dd></dl>
+
+</td></tr></table></td></tr></table>
+</body></html>

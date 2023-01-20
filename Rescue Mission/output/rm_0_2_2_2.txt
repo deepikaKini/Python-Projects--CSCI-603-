@@ -1,0 +1,23 @@
+Get to the choppa!
+Statistics:  2  hostage/s remain,  2  soldier/s remain,  2  guerrilla/s remain,  0  rescued
+SOLDIER #1 enters enemy base...
+SOLDIER #1 battles GUERRILLA #1 who rolls a 50
+SOLDIER #1 defeats GUERRILLA #1
+HOSTAGE #2 rescued from enemy base by SOLDIER #1
+SOLDIER #1  encounters the predator who rolls a  98
+SOLDIER #1 defeats PREDATOR #1
+HOSTAGE #2 boards the chopper!
+Statistics:  1  hostage/s remain,  2  soldier/s remain,  1  guerrilla/s remain,  0  rescued
+SOLDIER #2 enters enemy base...
+SOLDIER #2 battles GUERRILLA #2 who rolls a 54
+SOLDIER #2 defeats GUERRILLA #2
+HOSTAGE #1 rescued from enemy base by SOLDIER #2
+SOLDIER #2  encounters the predator who rolls a  6
+PREDATOR #1 defeats SOLDIER #2
+HOSTAGE #1  encounters the predator who rolls a  34
+PREDATOR #1 defeats HOSTAGE #1
+Statistics:  0  hostage/s remain,  1  soldier/s remain,  0  guerrilla/s remain,  0  rescued
+SOLDIER #1 boards the chopper!
+Chopper transported SOLDIER #1 to safety!
+Chopper transported HOSTAGE #2 to safety!
+Statistics:  0  hostage/s remain,  0  soldier/s remain,  0  guerrilla/s remain,  2  rescued

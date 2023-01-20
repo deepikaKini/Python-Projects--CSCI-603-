@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module bunker</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>bunker</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cmjc%5Cpycharmprojects%5Cpredator_fac%5Cbunker.py">c:\users\mjc\pycharmprojects\predator_fac\bunker.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="bunker.html#Bunker">Bunker</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Bunker">class <strong>Bunker</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Bunker">Bunker</a>(num_soldiers:&nbsp;int)<br>
+&nbsp;<br>
+A&nbsp;class&nbsp;to&nbsp;represent&nbsp;the&nbsp;bunker&nbsp;of&nbsp;soldiers.<br>
+&nbsp;<br>
+Soldiers&nbsp;will&nbsp;be&nbsp;added&nbsp;at&nbsp;the&nbsp;back&nbsp;of&nbsp;the&nbsp;bunker,&nbsp;and&nbsp;they&nbsp;will&nbsp;be&nbsp;deployed<br>
+from&nbsp;front&nbsp;to&nbsp;back&nbsp;(FIFO).<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Bunker-__init__"><strong>__init__</strong></a>(self, num_soldiers: int)</dt><dd><tt>Create&nbsp;the&nbsp;bunker&nbsp;and&nbsp;populate&nbsp;it&nbsp;with&nbsp;the&nbsp;given&nbsp;number&nbsp;of&nbsp;soldiers.<br>
+Each&nbsp;soldier&nbsp;will&nbsp;be&nbsp;created&nbsp;with&nbsp;an&nbsp;id&nbsp;ranging&nbsp;between&nbsp;1&nbsp;and&nbsp;num_soldiers.<br>
+@param&nbsp;num_soldiers:&nbsp;the&nbsp;total&nbsp;number&nbsp;of&nbsp;soldiers&nbsp;that&nbsp;start&nbsp;in&nbsp;the&nbsp;bunker</tt></dd></dl>
+
+<dl><dt><a name="Bunker-deploy_next_soldier"><strong>deploy_next_soldier</strong></a>(self) -&gt; player.Player</dt><dd><tt>Remove&nbsp;the&nbsp;next&nbsp;soldier&nbsp;from&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;bunker&nbsp;to&nbsp;be&nbsp;deployed<br>
+on&nbsp;a&nbsp;rescue&nbsp;attempt.<br>
+:pre:&nbsp;The&nbsp;bunker&nbsp;is&nbsp;not&nbsp;empty<br>
+:return:&nbsp;the&nbsp;soldier&nbsp;at&nbsp;the&nbsp;front&nbsp;of&nbsp;the&nbsp;bunker</tt></dd></dl>
+
+<dl><dt><a name="Bunker-fortify_soldier"><strong>fortify_soldier</strong></a>(self, soldier: player.Player) -&gt; None</dt><dd><tt>Add&nbsp;the&nbsp;soldier&nbsp;at&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;bunker<br>
+:param:&nbsp;the&nbsp;soldier&nbsp;to&nbsp;add<br>
+:return:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Bunker-get_num_soldiers"><strong>get_num_soldiers</strong></a>(self) -&gt; int</dt><dd><tt>Get&nbsp;how&nbsp;many&nbsp;soldiers&nbsp;are&nbsp;in&nbsp;the&nbsp;bunker.<br>
+:return:&nbsp;The&nbsp;number&nbsp;of&nbsp;soldiers&nbsp;in&nbsp;the&nbsp;bunker.</tt></dd></dl>
+
+<dl><dt><a name="Bunker-has_soldiers"><strong>has_soldiers</strong></a>(self) -&gt; bool</dt><dd><tt>Are&nbsp;soldiers&nbsp;left&nbsp;in&nbsp;the&nbsp;bunker?<br>
+:return:&nbsp;whether&nbsp;the&nbsp;bunker&nbsp;has&nbsp;soldiers&nbsp;or&nbsp;not</tt></dd></dl>
+
+</td></tr></table></td></tr></table>
+</body></html>

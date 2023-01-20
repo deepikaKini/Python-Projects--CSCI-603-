@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module rescue_mission</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>rescue_mission</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cmjc%5Cpycharmprojects%5Cpredator_fac%5Crescue_mission.py">c:\users\mjc\pycharmprojects\predator_fac\rescue_mission.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="rescue_mission.html#Rescue_Mission">Rescue_Mission</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Rescue_Mission">class <strong>Rescue_Mission</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Rescue_Mission">Rescue_Mission</a>(seed:&nbsp;int,&nbsp;num_hostages:&nbsp;int,&nbsp;num_soldiers:&nbsp;int,&nbsp;num_guerrillas:&nbsp;int)<br>
+&nbsp;<br>
+The&nbsp;main&nbsp;class&nbsp;that&nbsp;simulates&nbsp;the&nbsp;rescue&nbsp;mission.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Rescue_Mission-__init__"><strong>__init__</strong></a>(self, seed: int, num_hostages: int, num_soldiers: int, num_guerrillas: int)</dt><dd><tt>Create&nbsp;the&nbsp;rescue&nbsp;mission.&nbsp;This&nbsp;method&nbsp;is&nbsp;responsible&nbsp;for&nbsp;seeding&nbsp;the&nbsp;random&nbsp;number&nbsp;generator&nbsp;and&nbsp;initializing<br>
+all&nbsp;the&nbsp;supporting&nbsp;classes&nbsp;in&nbsp;the&nbsp;simulation:&nbsp;Chopper,&nbsp;Bunker,&nbsp;Enemy_Base&nbsp;and&nbsp;Predator.<br>
+&nbsp;<br>
+@param&nbsp;seed:&nbsp;the&nbsp;seed&nbsp;for&nbsp;the&nbsp;random&nbsp;number&nbsp;generator<br>
+@param&nbsp;num_hostages:&nbsp;the&nbsp;number&nbsp;of&nbsp;hostages<br>
+@param&nbsp;num_soldiers:&nbsp;the&nbsp;number&nbsp;of&nbsp;soldiers<br>
+@param&nbsp;num_guerrillas:&nbsp;the&nbsp;number&nbsp;of&nbsp;guerrillas</tt></dd></dl>
+
+<dl><dt><a name="Rescue_Mission-run_simulation"><strong>run_simulation</strong></a>(self) -&gt; None</dt><dd><tt>The&nbsp;main&nbsp;rescue&nbsp;mission&nbsp;loop&nbsp;runs&nbsp;here.&nbsp;&nbsp;The&nbsp;simulation&nbsp;runs&nbsp;until&nbsp;either<br>
+all&nbsp;the&nbsp;hostages&nbsp;have&nbsp;been&nbsp;rescued,&nbsp;or&nbsp;there&nbsp;are&nbsp;no&nbsp;more&nbsp;soldiers&nbsp;left<br>
+to&nbsp;rescue&nbsp;hostages.&nbsp;&nbsp;The&nbsp;steps&nbsp;to&nbsp;follow&nbsp;are:<br>
+&nbsp;<br>
+1.&nbsp;Print&nbsp;the&nbsp;start&nbsp;up&nbsp;message,&nbsp;"Get&nbsp;to&nbsp;the&nbsp;choppa!"<br>
+2.&nbsp;While&nbsp;the&nbsp;simulation&nbsp;is&nbsp;still&nbsp;going:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.&nbsp;Print&nbsp;the&nbsp;current&nbsp;statistics<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.&nbsp;Deploy&nbsp;the&nbsp;next&nbsp;soldier&nbsp;into&nbsp;the&nbsp;enemy&nbsp;base&nbsp;to<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;attempt&nbsp;rescuing&nbsp;the&nbsp;next&nbsp;hostage.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.&nbsp;If&nbsp;the&nbsp;hostage&nbsp;was&nbsp;not&nbsp;rescued&nbsp;goto&nbsp;step&nbsp;2.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6.&nbsp;Otherwise&nbsp;do&nbsp;steps&nbsp;7-13.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.&nbsp;Print&nbsp;a&nbsp;message&nbsp;"{hostage}&nbsp;rescued&nbsp;from&nbsp;enemy<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;base&nbsp;by&nbsp;soldier&nbsp;{solder}".<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8.&nbsp;Roll&nbsp;the&nbsp;die,&nbsp;1-100,&nbsp;to&nbsp;get&nbsp;the&nbsp;predators&nbsp;chance&nbsp;to<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defeat&nbsp;the&nbsp;soldier&nbsp;and&nbsp;display&nbsp;the&nbsp;message,&nbsp;"{soldier}&nbsp;encounters&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;predator&nbsp;who&nbsp;rolls&nbsp;a&nbsp;#".<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9.&nbsp;If&nbsp;the&nbsp;die&nbsp;roll&nbsp;is&nbsp;greater&nbsp;than&nbsp;the&nbsp;predator's<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chance&nbsp;to&nbsp;defeat&nbsp;the&nbsp;soldier,&nbsp;declare&nbsp;victory&nbsp;of&nbsp;the&nbsp;soldier&nbsp;over&nbsp;the&nbsp;predator.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Have&nbsp;the&nbsp;hostage&nbsp;board&nbsp;the&nbsp;chopper,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;add&nbsp;the&nbsp;soldier&nbsp;back&nbsp;to&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;bunker,&nbsp;and&nbsp;go&nbsp;to&nbsp;step&nbsp;2.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10.&nbsp;Otherwise&nbsp;declare&nbsp;victory&nbsp;of&nbsp;the&nbsp;predator&nbsp;over&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;soldier&nbsp;and&nbsp;continue&nbsp;to&nbsp;step&nbsp;11.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11.&nbsp;Roll&nbsp;the&nbsp;die&nbsp;again,&nbsp;1-100,&nbsp;to&nbsp;get&nbsp;the&nbsp;predators<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chance&nbsp;to&nbsp;defeat&nbsp;a&nbsp;hostage&nbsp;and&nbsp;display&nbsp;the&nbsp;message,&nbsp;"{hostage}&nbsp;encounters&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;predator&nbsp;who&nbsp;rolls&nbsp;a&nbsp;#".<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12.&nbsp;If&nbsp;the&nbsp;die&nbsp;roll&nbsp;is&nbsp;greater&nbsp;than&nbsp;the&nbsp;predator's<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;chance&nbsp;to&nbsp;defeat&nbsp;the&nbsp;hostage,&nbsp;declare&nbsp;victory&nbsp;of&nbsp;the&nbsp;hostage&nbsp;over&nbsp;the&nbsp;predator,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then&nbsp;have&nbsp;the&nbsp;hostage&nbsp;board&nbsp;the&nbsp;chopper.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Go&nbsp;to&nbsp;step&nbsp;2.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13.&nbsp;Otherwise&nbsp;declare&nbsp;victory&nbsp;of&nbsp;the&nbsp;predator&nbsp;over&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hostage&nbsp;and&nbsp;go&nbsp;to&nbsp;step&nbsp;2.<br>
+&nbsp;<br>
+14.&nbsp;At&nbsp;the&nbsp;end&nbsp;of&nbsp;the&nbsp;simulation&nbsp;any&nbsp;soldier&nbsp;that&nbsp;may&nbsp;be&nbsp;left&nbsp;in&nbsp;the&nbsp;bunker<br>
+should&nbsp;board&nbsp;the&nbsp;chopper.<br>
+15.&nbsp;If&nbsp;there&nbsp;are&nbsp;any&nbsp;remaining&nbsp;passengers&nbsp;on&nbsp;the&nbsp;chopper,&nbsp;rescue&nbsp;them&nbsp;to&nbsp;safety.<br>
+16.&nbsp;Print&nbsp;the&nbsp;statistics&nbsp;one&nbsp;last&nbsp;time.<br>
+@return:&nbsp;None</tt></dd></dl>
+
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-main"><strong>main</strong></a>() -&gt; None</dt><dd><tt>Run&nbsp;the&nbsp;rescue&nbsp;mission&nbsp;simulation.&nbsp;The&nbsp;simulation&nbsp;requires&nbsp;four&nbsp;command-line&nbsp;arguments:<br>
+1.&nbsp;the&nbsp;seed&nbsp;for&nbsp;the&nbsp;random&nbsp;number&nbsp;generator&nbsp;(positive&nbsp;integer)<br>
+2.&nbsp;the&nbsp;number&nbsp;of&nbsp;hostages&nbsp;(positive&nbsp;integer)<br>
+3.&nbsp;the&nbsp;number&nbsp;of&nbsp;soldiers&nbsp;(positive&nbsp;integer)<br>
+4.&nbsp;the&nbsp;number&nbsp;of&nbsp;guerrillas&nbsp;(positive&nbsp;integer)<br>
+&nbsp;<br>
+If&nbsp;all&nbsp;arguments&nbsp;are&nbsp;supplied,&nbsp;it&nbsp;will&nbsp;create&nbsp;the&nbsp;rescue&nbsp;mission&nbsp;and&nbsp;run&nbsp;the&nbsp;simulation.</tt></dd></dl>
+</td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#55aa55">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Data</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#55aa55"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><strong>argv</strong> = [r'C:\Users\mjc\AppData\Local\Programs\Python\Python39\lib\pydoc.py', '-w', r'.\rescue_mission.py']</td></tr></table>
+</body></html>

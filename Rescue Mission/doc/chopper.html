@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module chopper</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>chopper</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cmjc%5Cpycharmprojects%5Cpredator_fac%5Cchopper.py">c:\users\mjc\pycharmprojects\predator_fac\chopper.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="chopper.html#Chopper">Chopper</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Chopper">class <strong>Chopper</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>A&nbsp;class&nbsp;to&nbsp;represent&nbsp;the&nbsp;chopper.&nbsp;The&nbsp;chopper&nbsp;can&nbsp;hold&nbsp;up&nbsp;to&nbsp;6&nbsp;passengers<br>
+aligned&nbsp;in&nbsp;a&nbsp;single&nbsp;columns&nbsp;of&nbsp;seats.&nbsp;&nbsp;There&nbsp;is&nbsp;only&nbsp;one&nbsp;door&nbsp;to&nbsp;the&nbsp;chopper<br>
+that&nbsp;is&nbsp;accessible&nbsp;by&nbsp;the&nbsp;passengers.&nbsp;&nbsp;When&nbsp;they&nbsp;enter&nbsp;the&nbsp;chopper,&nbsp;the&nbsp;occupy<br>
+the&nbsp;seat&nbsp;closest&nbsp;to&nbsp;the&nbsp;door&nbsp;and&nbsp;any&nbsp;existing&nbsp;passengers&nbsp;move&nbsp;one&nbsp;seat&nbsp;down.<br>
+&nbsp;<br>
+In&nbsp;order&nbsp;to&nbsp;preserve&nbsp;fuel,&nbsp;the&nbsp;chopper&nbsp;will&nbsp;only&nbsp;fly&nbsp;the&nbsp;passengers&nbsp;away&nbsp;to<br>
+safety&nbsp;if&nbsp;the&nbsp;chopper&nbsp;is&nbsp;full,&nbsp;or&nbsp;it&nbsp;is&nbsp;the&nbsp;last&nbsp;group&nbsp;of&nbsp;people&nbsp;to&nbsp;rescue.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Chopper-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Create&nbsp;a&nbsp;new&nbsp;empty&nbsp;chopper.</tt></dd></dl>
+
+<dl><dt><a name="Chopper-board_passenger"><strong>board_passenger</strong></a>(self, player) -&gt; None</dt><dd><tt>Board&nbsp;a&nbsp;passenger&nbsp;onto&nbsp;the&nbsp;chopper.&nbsp;The&nbsp;passenger&nbsp;boards<br>
+the&nbsp;chopper&nbsp;and&nbsp;occupies&nbsp;the&nbsp;front&nbsp;seat,&nbsp;making&nbsp;everyone&nbsp;else&nbsp;in&nbsp;the&nbsp;chopper<br>
+move&nbsp;down&nbsp;a&nbsp;seat.&nbsp;&nbsp;When&nbsp;the&nbsp;passenger&nbsp;boards&nbsp;the&nbsp;chopper&nbsp;display&nbsp;the&nbsp;message:<br>
+&nbsp;<br>
+"{passenger}&nbsp;boards&nbsp;the&nbsp;chopper!"<br>
+&nbsp;<br>
+Then&nbsp;if&nbsp;the&nbsp;chopper&nbsp;is&nbsp;full,&nbsp;it&nbsp;must&nbsp;fly&nbsp;away&nbsp;and&nbsp;rescue&nbsp;the&nbsp;passengers&nbsp;on&nbsp;it.<br>
+&nbsp;<br>
+@param&nbsp;player:&nbsp;The&nbsp;player&nbsp;boarding&nbsp;the&nbsp;chopper<br>
+@return:&nbsp;None</tt></dd></dl>
+
+<dl><dt><a name="Chopper-get_num_rescued"><strong>get_num_rescued</strong></a>(self) -&gt; int</dt><dd><tt>Get&nbsp;the&nbsp;number&nbsp;of&nbsp;passengers&nbsp;that&nbsp;were&nbsp;rescued.<br>
+@return:&nbsp;the&nbsp;number&nbsp;of&nbsp;rescued&nbsp;passengers</tt></dd></dl>
+
+<dl><dt><a name="Chopper-is_empty"><strong>is_empty</strong></a>(self) -&gt; bool</dt><dd><tt>Is&nbsp;the&nbsp;chopper&nbsp;empty?<br>
+@return:&nbsp;whether&nbsp;or&nbsp;not&nbsp;the&nbsp;copper&nbsp;is&nbsp;empty</tt></dd></dl>
+
+<dl><dt><a name="Chopper-is_full"><strong>is_full</strong></a>(self) -&gt; bool</dt><dd><tt>Is&nbsp;the&nbsp;chopper&nbsp;full?<br>
+@return:&nbsp;whether&nbsp;or&nbsp;not&nbsp;the&nbsp;chopper&nbsp;has&nbsp;reached&nbsp;max&nbsp;occupancy&nbsp;or&nbsp;not</tt></dd></dl>
+
+<dl><dt><a name="Chopper-rescue_passengers"><strong>rescue_passengers</strong></a>(self) -&gt; None</dt><dd><tt>When&nbsp;the&nbsp;chopper&nbsp;is&nbsp;full,&nbsp;or&nbsp;it&nbsp;is&nbsp;the&nbsp;last&nbsp;group&nbsp;of&nbsp;people&nbsp;to&nbsp;be&nbsp;rescued,<br>
+it&nbsp;will&nbsp;fly&nbsp;away&nbsp;and&nbsp;rescue&nbsp;the&nbsp;passengers.&nbsp;&nbsp;Each&nbsp;passenger&nbsp;exits&nbsp;the<br>
+chopper&nbsp;in&nbsp;the&nbsp;reverse&nbsp;order&nbsp;they&nbsp;entered&nbsp;it,&nbsp;e.g.&nbsp;the&nbsp;last&nbsp;passenger&nbsp;to<br>
+enter&nbsp;exits&nbsp;first.<br>
+&nbsp;<br>
+As&nbsp;each&nbsp;passenger&nbsp;exits&nbsp;the&nbsp;chopper,&nbsp;print&nbsp;the&nbsp;message:<br>
+"<a href="#Chopper">Chopper</a>&nbsp;transported&nbsp;{passenger}&nbsp;to&nbsp;safety!"<br>
+&nbsp;<br>
+@return:&nbsp;None</tt></dd></dl>
+
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>MAX_OCCUPANCY</strong> = 6</dl>
+
+</td></tr></table></td></tr></table>
+</body></html>
