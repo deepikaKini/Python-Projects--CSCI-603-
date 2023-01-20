@@ -1,0 +1,10 @@
+File: test_dataset50K.txt
+Number of buildings: 50000
+Using QuickSort to find optimal location
+	Elapsed time: 0.14765810000244528 seconds
+	Optimal food truck location: 49955
+	Sum of distances: 1250228281
+Using QuickSelect to find optimal location
+	Elapsed time: 0.016038000001572073 seconds
+	Optimal food truck location: 49955
+	Sum of distances: 1250228281

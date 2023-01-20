@@ -1,0 +1,10 @@
+File: test_pss.txt
+Number of buildings: 4
+Using QuickSort to find optimal location
+	Elapsed time: 2.2500000000008624e-05 seconds
+	Optimal food truck location: 170
+	Sum of distances: 180
+Using QuickSelect to find optimal location
+	Elapsed time: 2.4099999999999122e-05 seconds
+	Optimal food truck location: 170
+	Sum of distances: 180
